@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<svg width="162.6" height="162.6" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:#333333;}
+	.st1{fill:#4D4D4D;}
+	.st2{fill:#F2F2F2;}
+	.st3{fill:none;stroke:#4D4D4D;stroke-width:6.2497;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#4D4D4D;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#CCCCCC;}
+	.st6{fill:#8CC63F;}
+	.st7{fill:#EFD51F;stroke:#4D4D4D;stroke-width:3.7788;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#4D4D4D;stroke-width:3.7788;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#F2F2F2;stroke-width:12.4747;stroke-miterlimit:10;}
+	.st10{fill:#8CC63F;stroke:#FFFFFF;stroke-width:1.022;stroke-miterlimit:10;}
+	.st11{fill:#E6E6E6;}
+	.st12{fill:#FBB03B;stroke:#FFFFFF;stroke-width:1.022;stroke-miterlimit:10;}
+	.st13{fill:#FFFFFF;}
+	.st14{fill:none;stroke:#FFFFFF;stroke-width:0.8672;stroke-miterlimit:10;}
+	.st15{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st16{fill:#9BA5B0;}
+	.st17{fill:#C1CCD9;}
+	.st18{fill:none;stroke:#4D4D4D;stroke-width:2.9066;stroke-miterlimit:10;}
+	.st19{fill:url(#SVGID_2_);stroke:#FFFFFF;stroke-width:1.022;stroke-miterlimit:10;}
+	.st20{fill:url(#SVGID_3_);}
+	.st21{opacity:0.5;}
+	.st22{fill:#FBB03B;}
+	.st23{fill:none;stroke:#808080;stroke-miterlimit:10;}
+	.st24{fill:#F7931E;}
+	.st25{fill:#C6CCCC;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st26{fill:url(#SVGID_4_);}
+	.st27{fill:url(#SVGID_5_);}
+	.st28{fill:url(#SVGID_6_);}
+	.st29{fill:url(#SVGID_7_);}
+	.st30{fill:url(#SVGID_8_);}
+	.st31{fill:url(#SVGID_9_);}</style>
+ <defs>
+  <radialGradient gradientUnits="userSpaceOnUse" r="32.0039" cy="77.5651" cx="80.1972" id="SVGID_1_">
+   <stop stop-color="#333333" offset="0"/>
+   <stop stop-color="#353535" offset="0.5149"/>
+   <stop stop-color="#3C3C3C" offset="0.7003"/>
+   <stop stop-color="#474747" offset="0.8325"/>
+   <stop stop-color="#585858" offset="0.9387"/>
+   <stop stop-color="#666666" offset="1"/>
+  </radialGradient>
+  <linearGradient y2="0.005299" x2="0.499583" y1="0.981535" x1="0.499583" id="SVGID_2_">
+   <stop stop-color="#333333" offset="0"/>
+   <stop stop-color="#808080" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_16">
+   <g id="svg_17">
+    <path id="svg_18" fill="url(#SVGID_1_)" d="m98,75.800003l-6.199997,0l0,-11.900002c0,-6.900002 -5.600006,-12.5 -12.5,-12.5s-12.5,5.599998 -12.5,12.5l0,11.900002l-6.200005,0l0,-11.900002c0,-10.300003 8.400002,-18.700001 18.700005,-18.700001s18.699997,8.399998 18.699997,18.700001l0,11.900002z"/>
+   </g>
+   <path id="svg_19" fill="url(#SVGID_2_)" d="m93.599998,122.400002l-28.5,0c-6.599998,0 -12,-5.400002 -12,-12l0,-28.5c0,-6.599998 5.400002,-12 12,-12l28.5,0c6.599998,0 12,5.400002 12,12l0,28.5c0,6.599998 -5.400002,12 -12,12z"/>
+   <circle id="svg_20" r="8.3" cy="89.3" cx="79.3"/>
+   <path id="svg_21" d="m79.300003,111.800003l0,0c-1.300003,0 -3.700005,0.299995 -3.700005,-1l1.400002,-19.200005c0,-1.299995 1.099998,-2.400002 2.400002,-2.400002l0,0c1.299995,0 2.400002,1.100006 2.400002,2.400002l1.399994,19.200005c-0.199997,1.299995 -2.599998,1 -3.899994,1z"/>
+  </g>
+ </g>
+</svg>

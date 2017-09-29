@@ -1,0 +1,36 @@
+<!-- view - profile.senzorji -->
+
+<h1>Senzorji</h1>
+<h3>Tukaj bodo senzorji.</h3>
+
+<p>Slikice in možnost http klica do senzorjev, kateri so razpoložljivi?</p>
+<h3>List of sensors</h3>
+<div style="width: 50%; margin: 0 auto;">
+	<table class="table table-inverse table-bordered table-hover" style="background-color: white;">
+		<thead>
+			<tr>
+				<th>Sensor's name</th>
+				<th>Availability</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>NoldusFaceReader</td>
+				<td>{{ProfileCtrl.availableNoldusFaceReader ? '&#10004;' : '&#10008;';}}</td>
+			</tr>
+			<tr>
+				<td>TobiiEyeTracker</td>
+				<td>{{ProfileCtrl.availableTobiiEyeTracker ? '&#10004;' : '&#10008;';}}</td>
+			</tr>
+			<tr>
+				<td>Arduino_MPU6050</td>
+				<td>{{ProfileCtrl.availableArduino_MPU6050 ? '&#10004;' : '&#10008;';}}</td>
+			</tr>
+			<tr>
+				<td>AndroidWear_M360</td>
+				<td>{{ProfileCtrl.availableAndroidWear_M360 ? '&#10004;' : '&#10008;';}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<button type="button" class="btn btn-info" style="display: block; margin: 0 auto;" ng-click="ProfileCtrl.checkSensors();">CHECK AGAIN</button>
+</div>

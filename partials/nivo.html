@@ -1,0 +1,6 @@
+<div class="stopnja subStopnja" ng-repeat="y in MenuCtrl.getUserUnlocksAndAchievements()[MenuCtrl.getSelectedExerciseIndex()].sublevels" class="col-lg-3" ng-mousedown="MenuCtrl.setSelectedSubExerciseIndex(y.id);" ng-dblclick="MenuCtrl.changeStateToTyping();" ng-class="{ 'stopnja unlocked' : y.achievement > 0, 'stopnja locked' : y.achievement == 0, 'stopnja unlocked selected' : y.id == MenuCtrl.getSelectedSubExerciseIndex() }">
+	<p class="odstavek_stevilka">{{ $index + 1 }}.</p>
+	<p class="odstavek_besedilo">nivo</p>
+
+	<img ng-src="{{!(y.achievement > 0) && 'img/kljucavnica.svg' || 'img/medalje_' + (y.achievement-1) + '.png'}}"/>
+</div>

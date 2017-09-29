@@ -1,0 +1,516 @@
+[
+	{
+		"tipke" : "AČFJ",
+		"navodilo" : "Na tej stopnji se boš naučil začetne lege prstov na tipkovnici in uporabe tipk A Č F J. Stopnjo sestavlja 5 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"ač fj čaj fajč fajfa čaja fajač čafa afaj ajaj jaja jačaj faja jajčf ača afaj jafač faja",
+			"jafa jačaj faja jafač fajfa čaja fjča ajaj jaj ačač jaj jaja aja ača jafač fajač čaja",
+			"aja čaja fajfa jaja faja ajfa čaj jačaj afaja čajaj ajaj jaja fiač jafač čajaj jajaj ača",
+			"ačaj fajač čajaf fajfa jaja faja čafa afaj ajaj jafa jačaj fajfa čaja jačaj ajaj afaj ajaj",
+			"fajfa jafa jačaj čaja jajaj ajfa aja ačaj faja jafa fajač jafač čajaj jafa fajač čajafa"
+		]
+	},
+	{
+		"tipke" : "DK",
+		"navodilo" : "Na tej stopnji se boš naučil začetne lege prstov na tipkovnici in uporabe tipk D K. Stopnjo sestavlja 7 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"dk kad kdaj ajda čaj fajfa daja kaja faja jaka čaka ada daj kača čaka jajčka čakaj",
+			"jaka kaj čaka jaja ada kača čaja ajda fajka kaja ada čakaj jajčka čača fajfa kaja",
+			"ajda čaka jaka daj kdaj čaj fajfa kaj čakaj kdaj ača fajka čačkaj kaja daja čakaj",
+			"kdaj ajda čaj fajfa daja kaja faja jaka čaka ada daj čakaj kaj jaka kača kaj čakaj",
+			"čaka jaka čaja ada kača ajda kaja kdaj čaj fajfa čakaj ača jaja fajka kdaj daka kaja",
+			"fajka ada daj jačaj čakaj jaja daja kaja čaja faja kajak daj aja čaja kada fajfa kdaj",
+			"ajčka ajda čačkaj jajčka čačkaj kdaj čakaj kaj čaka jaka ajaj kaj čakaj kdaj jaka"
+		]
+	},
+	{
+		"tipke" : "SL",
+		"navodilo" : "Na tej stopnji se boš naučil začetne lege prstov na tipkovnici in uporabe tipk S L. Stopnjo sestavlja 9 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"sl saj čaj jaka čakal sladak ladja čakala čas sladkala jajčka jaja skakala ajda ada",
+			"sladka ajda klala ladja skakljala klada dlaka skala kdaj dala slad fasada klas jaka",
+			"klas fajfa ajda skakljaj dala fasada skakala saj kdaj dala kaja čaka čaja fajfa saj",
+			"kaj ladja čakala jaka čakal jajčka kdaj čaka ladja ada skala kaj las klas sladkala",
+			"skakljala daj kaja ada da čaja dala sladak čaj skala ajda klala dlaka skala sladkaj",
+			"lakaj fajfa saj las klas slad dala sladkal ladja klada kaj lakaj skakljaj fajfa kaj daj",
+			"klala ladja dala skala klada dlaka sladka saj laja sladak kaj fasada kdaj sladak saj",
+			"sklad dala sladkala fasada safalada klas jaka skaklaj lak sklada daj fajfa saj kaja",
+			"lak kalja sklada kaja skala kaj čačkaj ada kdaj skladaj ajda slad dlaka ladja čakala"
+		]
+	},
+	{
+		"tipke" : "AČFJDKSL",
+		"navodilo" : "Na tej stopnji se boš naučil začetne lege prstov na tipkovnici in uporabe tipk A Č F J in D K S L. Stopnjo sestavlja 12 + 15 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"kala dala klas sladka klada dlaka sala sklada kaj",
+			"čaj jajčka čakala las fajfa kača klas daj skakljala",
+			"fajfa sladkala čaj skala laja fasada saj kala laska",
+			"sladak ladja skakala dlaka kdaj čaka jaka čakala",
+			"skakač lada fasada safalada ladja slak lajala skala",
+			"jafa slak kača jasa klasa klada laska ajda kdaj kaj",
+			"kaj daja ajda saj čaka ladja čaka kača kdaj ajčka",
+			"kdaj laja jaka sklada ada čačka kdaj skakljala saj",
+			"kdaj daja lakaj čaj čaka sladka ajda kaj sklada daj",
+			"saj ada laska kaskada alka lakaj alfa kasač kasa",
+			"kača jajčka čakaj čačkaj ajda lak saj čaj las čačka",
+			"klas slak ajda klada skala dlaka laska slad čakala",
+
+
+
+			"asdf jklč fdsa člkj asdf jklč",
+			"kaj kaj kaj daj daj daj čakaj",
+			"sad sad sad lak lak klas klas",
+			"jaka čaka jaka čaka jaka čaka",
+			"kaj čaka jaka kaj čakala ada",
+			"jaka čakal čaj ada dala čaja",
+			"klas laskala ajda sladkaj saj",
+			"slad jafa čaj fasada safalada",
+			"ada da čaja ada čaj sladkala",
+			"ada dala čaj dala sladak čaj",
+			"sladak sladka sladkaj sladkal",
+			"skaklja skakljaj skakala kdaj",
+			"jaka čaka čaj ada da čaja dala sladak čaj jaka čakal jajčka",
+			"kdaj čaka ladja kaj ladja čakala ladja čakala čas sladak sad",
+			"kača čakala kača skakala ada skakljala skala skakljala ajda"
+		]
+	},
+	{
+		"tipke" : "GH",
+		"navodilo" : "Na tej stopnji se boš naučil začetne lege prstov na tipkovnici in uporabe tipk G H. Stopnjo sestavlja 8 + 14 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"fgfg jhjh fgfg jhjh fgfg jhjh",
+			"aga aga lah lah dah dah skala",
+			"gad gad gaj gaj haj hlad hlad",
+			"gad gad gaj gaj haj hlad hlad",
+			"hlad hlad alah alah glas glas",
+			"alga alga glad glad sklad gaj",
+			"lahka halja lahka halja lagal",
+			"gladka skala gladka skala gaj",
+
+
+
+			"gaj gaj dah dah čas glas glas",
+			"haj haj gad gad hlad hlad lah",
+			"jahač jahač jahal jahala saga",
+			"lagala fafljala sladka gladka",
+			"lahka klada sladak glas jahač",
+			"gladka alga sladka alga lagal",
+			"kg hl dag skladaj sladkaj čaj",
+			"hl ha kg čakala skakljala čas",
+			"saj ga ladja čaka kaj čaka ladja ladja čakala čas ada lagala",
+			"kdaj jaka gada čaka kdaj ga čaka skala da hlad gaj da hlad",
+			"jaka čakal čaj ada dala sladak čaj ada čaj sladkala safalada",
+			"jaka gada čakal jaka hajkal gada kača skakljala ada skakala",
+			"lahka halja fafljala gladka skala skakljala ada jajčka čakala",
+			"ada laskala a lagala gaj da hlad gladka klada skakljala čakaj"
+		]
+	},
+	{
+		"tipke" : "RU",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk R U. Stopnjo sestavlja 12 + 19 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"frfr juju frfr juju frfr juju",
+			"frda jukč frda jukč fgfr jhju",
+			"gaj gaj raj raj ura ura daruj",
+			"juha kruh ruda ragu luka grah",
+			"lučka čula ljudska urar kafra",
+			"ključ dragulj safalada sadjar",
+			"rudar garač sraga kuhar druga",
+			"čudak lučka kafra črkuj daruj",
+			"čar gruda luksus gusar slučaj",
+			"jug sadjar kljuka črkuj graja",
+			"ragu ljudska ruda urar sadjar kuhar lučka",
+			"dragulj gruča daruj gruda črkuj gusar čudak",
+
+
+
+			"ura suh dar rak jug kraj grad",
+			"čuk duh ura urar črka rus duh",
+			"juha juha luka drug srka sluh",
+			"kruh grah ruda kuha udar gluh",
+			"kurjač sadjar rudar garač kad",
+			"slučaj dragulj udar kraj sluh",
+			"sadra kafra hujska laska urar",
+			"ključ lučka druga sraka kuhar",
+			"gladka fasada ugaja srka ga",
+			"kurjač ga rad srka suh kruh",
+			"čaka ga huda ura rad ga čaka",
+			"urarju dar ugaja halja ugaja",
+			"kafra sadra kurjač sadjar gusar jaguar garač ključ kras dragulj",
+			"gruča ga čaka drga črka draga jajčka drug urad lahka halja",
+			"dragulj da urarju ključ da sadjarju kurjaču skuhaj sladak čaj",
+			"gruča čaka rudarja gruča čaka kurjača sadjarja čaka huda ura",
+			"urarju ugaja sladak čaj rad ga srka sadjarju ugaja sladak sad",
+			"kuhar rad skuha čaj sluga čaka kurjača suh kruh ugaja kuharju",
+			"rahla graja draga jajčka gladka skala šuha klada ragu juha"
+		]
+	},
+	{
+		"tipke" : "EI",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk E I. Stopnjo sestavlja 12 + 18 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"dede kiki dede kiki deed klik",
+			"led led del del kis kis slika",
+			"les del kis les lik sij kisik",
+			"sir kes jed čir gre dila kres",
+			"resa dela figa igra krik sila",
+			"duri igra grič kres leča čuje",
+			"reka dela kida leča igra lika",
+			"likaj greda sreda ideja kisik",
+			"kreda slika dijak resje ideal",
+			"radič sijaj figura ljudje čas",
+			"grafika figura liker čriček dirkala diskusija",
+			"lirika slike ugajala čelada sirček kurir sila",
+
+
+
+			"relief regres ilegala refleks",
+			"radijska igra realka regulira",
+			"hrček daleč ideal serija kjer",
+			"drugače sadje sijaj diha sled",
+			"leča sedaj srečka kefir rasje",
+			"leska kal ljudje sardele čuje",
+			"sadra radirka les kafra greda",
+			"galerija grafika figura liker",
+			"čelada radirka čriček dirkala",
+			"dihal diskusija lirika sekira",
+			"dijak je čečkal dijak radira",
+			"galerija slik jed je ugajala",
+			"igra resje kefir dir dekle kar led leča sedaj resje sreča kefir",
+			"igla duri resa kisik čuje sreda leska kal ljudje julij kara lik",
+			"kegel kisel sled lika skrije klej sijaj kisik kreda kegelj del",
+			"kreda dekada kjer kulisa sekire kurirji sardele krč Sardele čir",
+			"figura ji je ugajala dijak še rad uči deček se rad igra sir",
+			"serija slik serije srečk suh les ugaja ji lirika gleda lik"
+		]
+	},
+	{
+		"tipke" : "VM",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk V M. Stopnjo sestavlja 8 + 12 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"ffvv jjmm fvfv jmjm frfv jujm",
+			"dah med sam mah več vihar vsi",
+			"smeh smer mrak mera muha dvig",
+			"meja drva vera vsak mlad valj",
+			"lama farma freska kamera črka",
+			"film smisel mivka dvig smučar",
+			"sveča davek smehljaj vračalka",
+			"maska vera marsikaj smreka le",
+
+
+
+			"ime vem mak kam več jama sama",
+			"vsi vsa dam vrč dim kava črka",
+			"lava jama svak mama vmes veja",
+			"liga dvig črka drva valj sama",
+			"klima vleče hmelj vesel misel",
+			"čevelj figura smučar mir svak",
+			"smučar grmada vreča kava drva",
+			"medved samska damska maksimum",
+			"adresa je v arhivu sladak smehljaj draga kurjava hud vihar",
+			"deček rad kriči dedek ima rad mir vse je res lahka veriga",
+			"kuharju ugaja sladak čaj krčmar rad srka rum rudar čaka vlak",
+			"mama rada kuha vsaka mlada mama rada vkuhava v mraku ga čaka"
+		]
+	},
+	{
+		"tipke" : "C,",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk C ,. Stopnjo sestavlja 12 + 20 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"dedc kik, dedc kik, asdc člk,",
+			"cel cel ceh ceh car car cekar",
+			"srce cula cela klic leča lice",
+			"cilj cirilica gredica cedilce",
+			"deklica darilce sladica jajce",
+			"cesar cesarica sulica sekcija",
+			"grlica lekcija akacija akcija",
+			"cirilica cirkulacija cirkular",
+			"vlada vladika valček vključim ",
+			"dela delavec delavka delavski",
+			"rejec, cia, ulica, ciklama, delavec, vihar",
+			"davek, savska, deklaracija, klicaj, sulec,",
+
+
+
+			"skakalec filiala deklič cefir",
+			"suličar ilirija cedilce drugi",
+			"čelada cilj direkcija lekcija",
+			"diskusija radiraj idila radij",
+			"reakcija rekreacija redakcija",
+			"regulacija kreacija selekcija",
+			"deklaracija sekcija direkcija",
+			"serija kalkulacija rekreacija",
+			"veriga, večer, smirek, davek,",
+			"ulica, delavec, vihar, vlaga,",
+			"vlaga, igralec, cirkular, civil, cefra, vislice,",
+			"cifra, krivica, markacija, cuga, lice, ujec,",
+			"federacija, federacije, federaciji, akcija, akcije, akciji, cilj,",
+			"kalkulacija, kalkulacije, kalkulaciji, selekcija, selekcije, cel,",
+			"redakcija, redakcije, redakciji, sekcija, sekcije, sekciji, sila,",
+			"deček rad skače, kriči, a dedek ima rad mir, deklica rada cvili,",
+			"cirkulacija krvi, evakuacija velikega gradu, vaje rada radiram,",
+			"vem, da je adresa v arhivu, mislim, da je vse res, rekreacija,",
+			"huda reakcija, velika krivica, dijak ima rad vesele diskusije,",
+			"ima rad mir, vidim, da mu rekreacija ugaja, v fasciklu je red,"
+		]
+	},
+	{
+		"tipke" : "OP",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk O P. Stopnjo sestavlja 12 + 16 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"lolo čpčp kiki juju lolo čpčp",
+			"lov rog pes log sol pola pika",
+			"para pega pika upor opis pila",
+			"lep uspeh ogled reklama opera",
+			"kopel april opeka ločilo pero",
+			"predpis prihod kopija plačilo",
+			"alkohol, prihod vlaka, prepis,",
+			"usada jih je udarila, daj sad,",
+			"dve kopiji, dolgčas prodajam,",
+			"radijska oddaja, lep sprehod,",
+			"upor hlod kolo kos priporočilo odplačilo ",
+			"priloga opis lapor pogorje alkohol lopa",
+
+
+
+			"oče kdo puh kip pega para kos",
+			"hlod opis log kos rep peč čop",
+			"kvas upor hlod kolo repa lipa",
+			"uspeh opis prepis dolg podpis",
+			"radijska oddaja, dve prilogi,",
+			"odplačilo dolga, priporočilo,",
+			"prodajalec čaka, daj delavki,",
+			"pregledal je popravo, poroka,",
+			"operacija je uspela, podpora,",
+			"formulacija,sklepov, opravek,",
+			"lepa dekoracija, priporočilo,",
+			"psihologija je veda, časopis,",
+			"v aprilu je voda poplavila polje, kurjač je rad pil alkohol, ",
+			"prehod so prepovedali, imel je velike privilegije, alkoholik,",
+			"dijaki, ki so prosili, so prejeli precej podpore, lepa folklora,",
+			"sporočili so, da so okvaro odpravili, imel je dolg predgovor,"
+		]
+	},
+	{
+		"tipke" : "BN",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk B N. Stopnjo sestavlja 12 + 17 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"fvfb jmjn fvfb jmjn frfb jujn",
+			"dno grb bel sneg vnuk beg ban",
+			"klub goba nega vaba brin brod",
+			"riba cena nada roba mnog noga",
+			"naboj frank narod blago namen",
+			"ukana nakup uvod denar carina",
+			"bencin nadloga naslov barvilo",
+			"ponnudba naročilo načelo borba",
+			"področje, odborniki, poudarek,",
+			"nadarjen učenec, bakren novec,",
+			"pregled blagajne, lep honorar,",
+			"uvodne besede, sklepne besede,",
+
+
+
+			"dan dne res nam ban cena nada",
+			"oba grb blok len ena riba sen",
+			"noga bala brod grba brod nega",
+			"narod mnogo naboj blago frank",
+			"denar vnema danes barva pesem",
+			"snaga baker borba banka mrena",
+			"honorar nadloga municija baba",
+			"slalom monopol mornar vročina",
+			"prodajna cena, visok honorar,",
+			"sklepne besede, naporna hoja,",
+			"dober predlog, prodajna cena,",
+			"kdor prej pride, prej melje,",
+			"profesor je nalogo dobro pregledal, naročilo so včeraj poslali,",
+			"dobro blago se samo hvali, enodnevni obiski v planinskih domovih,",
+			"jasno kakor beli dan, gre kakor po maslu, dela dobro napredujejo,",
+			"uporabljamo menjalko smeri in menjalko lege, dragi računalniki,",
+			"pomočnik rad lenari, delovna disciplina je slaba, čuvajmo valj,"
+		]
+	},
+	{
+		"tipke" : "TZ",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk T Z. Stopnjo sestavlja 12 + 16 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"frfr juju frft jujz ftft jzjz",
+			"tri pet pot tisk zrak zet tir",
+			"niz rez zid tla bič takt list",
+			"čast most last raza miza znak",
+			"trud tara nota tlak trak brat",
+			"tisk vlak raza jeza post čist",
+			"pozor izlet torek takcij tečaj",
+			"izraz načrt strel nafta strop",
+			"raz razpis izhod izlet stroka",
+			"spored brzovlak zasluga pozor",
+			"kupna pogodba, delegat, zrel,",
+			"četrtletje, zadrugar, znanje,",
+
+
+
+			"let jaz zel bat tisk nota gaz",
+			"kot zdaj jata zlato ruta tele",
+			"zakaj zato zaloga tast razred",
+			"raz razlika razdelitev razlog",
+			"jutri zjutraj, vztrajali ste,",
+			"proizvodnja, skupnost, kriza,",
+			"preslednica, daktilografinja,",
+			"tipkovnica, tastatura stroja,",
+			"strojepiska, delovno razmerje,",
+			"valj, zareze, strojepisnica,",
+			"daktilografka, zapisnikarica,",
+			"tretje četrtletje, vznemiriti,",
+			"ogrodje stroja, tipkovnica ali tastatura, voz, valj, vrtilo,",
+			"ročica, razdaljnik, sprostilec papirja, levo in desno vrtilo,",
+			"začetni in končni robnik, robni izločilec, vračalka, tipke,",
+			"preslednica, zatič, zapirač, papir vlagamo pri zarezi nič,"
+		]
+	},
+	{
+		"tipke" : "Š.",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk Š .. Stopnjo sestavlja 12 + 21 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"jčjč lol. jšjš lol. jšjš lol.",
+			"šal šef peš naš vaš šola šiba",
+			"šah koš miš daš šala hiša veš",
+			"šest išče tešč ščit škrt suša",
+			"škoda šofer šport plašč šerif",
+			"tovariš šolar šolstvo šolanje",
+			"tri štiri pet šest štirinajst",
+			"moški plašč številka petdeset",
+			"maščevanje poškodba kegljišče",
+			"plesišče pristanišče gradišče",
+			"letališče kopališče drsališče",
+			"gledališče maščevanje prgišče",
+
+
+
+			"vojaška šola, šoferski izpit.",
+			"ribiška palica, novo igrišče.",
+			"pošiljka pošiljatelj pošiljam",
+			"pisarniški delavci. pošljimo.",
+			"nagrade, letošnji nagrajenci.",
+			"označba, tovarniška številka.",
+			"zima, šport, športno igrišče.",
+			"skladišče, širina ter višina.",
+			"cm, dag, hl, kg, min, sek, a, ",
+			"skupščina, občina, drsališče,",
+			"okt., nov., dec., itd., npr.,",
+			"študij, šport, šolski center.",
+			"barvni trak, barvna motka, kaseta za trak, menjalka smeri traku,",
+			"menjalka lege barvnega traku, tipke in črke, sprostilec papirja,",
+			"učimo se slepo tipkati, vlagajmo po dva lista, da ščitimo valj,",
+			"pred vlaganjem papirja si vedno zaznamujemo spodnji, skrajni rob.",
+			"kadar potegnemo voz v novo vrsto, naj bo druga roka na tastaturi.",
+			"stroj pokrijemo, kadar je voz na sredi, stol pa pomaknemo k mizi.",
+			"ako opazimo, da postaja pisava bleda, kontrolirajmo prevoj traku.",
+			"odtise pike in vejice bomo kontrolirali na hrbtni strani papirja.",
+			"v počitniški praksi si bomo s treningom pridobili več spretnosti."
+		]
+	},
+	{
+		"tipke" : "ŽĆĐ",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk ŽĆĐ. Stopnjo sestavlja 12 + 12 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"fafa jčjž fafa jčjž fafa jčjž",
+			"riž laž žir jež-žep žena žica",
+			"teža žito žica veža žena žila",
+			"polž ježa roža mož tožba koža",
+			"služba požar delež želod žeja",
+			"živilo dežela dolžina založba",
+			"državljan orožje oboroževanje",
+			"združevanje žičnica življenje",
+			"podražitev železnica dolžnost",
+			"železo žerjavica živina žrelo",
+			"železna rezerva, železobeton,",
+			"železnina, žveplen, križišče,",
+
+
+
+			"kuča čošak kčerka čelov čilim",
+			"čirilski čuprija čučenje kuča",
+			"jčjc jčjd jcjc jdjd jčjc jčjd",
+			"hoču neču kči zadača ćirilica",
+			"duveč duveč svadati dava leda",
+			"dulbastija don dak derdap čuk",
+			"dubretar dubretar česma česma",
+			"čelavec čilimče čutaliča davo",
+			"čevapčič potvrdenje gradevina",
+			"čutanje čufte daur daveč hoču",
+			"industrija, rešitev križanke.",
+			"več držav, množična udeležba."
+		]
+	},
+	{
+		"tipke" : "QWYX",
+		"navodilo" : "Na tej stopnji se boš naučil uporabe tipk Q W Y X. Stopnjo sestavlja 12 + 12 nalog, ko jih rešiš uspešno lahko pričneš z naslednjo stopnjo.",
+		"naloge" : [
+			"frde swsw aqaq frde swsw aqaq",
+			"fvdc sxsx ayay fvdc sxsx ayay",
+			"quadrate quadrille quart quay",
+			"quiz quick quantum quiz syuaw",
+			"swim wear week welcome window",
+			"sweater wine wife woman sweet",
+			"exact dexter exchange example",
+			"exercise export sixteen where",
+			"symbol system systemless yard",
+			"typewriter type today hygiene",
+			"quintal quality question swan",
+			"snow snowball yes type slowly",
+
+
+
+			"expedition export excuse six",
+			"royal royalist young sky eye",
+			"quicksilver playhouse six rex",
+			"quadriga dextrose slow symbbl",
+			"downstairs what export system",
+			"however down play year eyelid",
+			"quadratic rex requisite today",
+			"you yard yeliow work who what",
+			"requisite sixpence tower town",
+			"yourself wrong rhythm quarell",
+			"twelve twenty six sixty tweed",
+			"write wind rhythmic youngness"
+		]
+	},
+	{
+		"tipke" : "kazalci",
+		"navodilo" : "Na tej stopnji se boš naučil prijeme kazalcev.",
+		"naloge" : [
+			"federacija franko trg trgovati graditelj gradbena dejavnost jutri zjutraj pojutrišnjem znanost znamenit znanstvenik znoj hlad hladilnik hladnokrvnost mnogo množica pomniti zmanjšati"
+		]
+	},
+	{
+		"tipke" : "sredinci",
+		"navodilo" : "Na tej stopnji se boš naučil prijeme sredincev.",
+		"naloge" : [
+			"carina, pocenitev, carinarnica, medicina, evidenca, civilist, diktirati kartoteka diktatura kombinacija komunikacija kult prva kategorija, književni jezik, kalkulacija, lep eksponat,"
+		]
+	},
+	{
+		"tipke" : "prstanci",
+		"navodilo" : "Na tej stopnji se boš naučil prijeme prstancev.",
+		"naloge" : [
+			"organizem posoditi prisoditi osnovnica sodišče pooblastilo središče saldo sistemizacija lokalizirati konstrukcija os okolica. kooperacija. koordinacija. pooblaščenec. šport."
+		]
+	},
+	{
+		"tipke" : "mezinci",
+		"navodilo" : "Na tej stopnji se boš naučil prijeme mezincev.",
+		"naloge" : [
+			"živinoreja železarna živinozdravnik nezmožen pomožen požeti adresa ali naslov, administrativna prepoved, avtomatizacija štipendija. poštna pošiljka. šoferska legitimacija. špekulant."
+		]
+	},
+	{
+		"tipke" : "velika začetnica",
+		"navodilo" : "Na tej stopnji se boš naučil rabe velike začetnice.",
+		"naloge" : [
+			"Janez Jerin, Klara Kovačič, Luka Lovrenčič, Čedo Črnovšek, Hrabro Habinc, Zora Zadravec, Uroš Urbančič, Igor Ivančič, Olga Orešič, Peter Potočnik, Štefka Šilc, Niko Novak, Maja",
+
+
+
+			"Francka Feldin, Dragica Durjava, Saša Slodnjak, Adela Arzenšek, Grega Gruden, Tatjana Tretjak, Rudolf Rakuša, Edita Emeršič, Boža Ban, Vera Voh, Ciril Caf, Weber, Quinn, Xawer, Young."
+		]
+	}
+]

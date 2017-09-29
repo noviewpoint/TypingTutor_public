@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<!-- XML SMERNICA: VSE ZNACKE SO VEDNO PRISOTNE! -->
+
+
+	<!-- PRIMERI EKSPERIMENTOV -->
+
+	<!-- eksperiment traja 1000 sekund, ce uporabnik konca vse vaje eksperimenta pred iztekom tega casa, se vaje ponavljajo do izteka casa -->
+	<!-- cas eksperimenta zacne teci s prvim pritiskom na tipko (startWithUserAction="true") -->
+	<!-- brez predvprasalnika in brez povprasalnika (izven casa trajanja eksperimenta!!!) -->
+	<experiment duration="1000000" loop="true" startWithUserAction="true" predvprasalnik="-1" povprasalnik="-1"></experiment>
+
+
+	<!-- eksperiment traja 1000 sekund, ce uporabnik konca vse vaje eksperimenta pred iztekom tega casa, se eksperiment zakljuci prej -->
+	<!-- cas eksperimenta zacne teci programaticno ob izrisu grafike igre (startWithUserAction="false") -->
+	<!-- s predvprasalnikom 1 in s povprasalnikom 2 (izven casa trajanja eksperimenta!!!) -->
+	<experiment duration="1000000" loop="false" startWithUserAction="false" predvprasalnik="1" povprasalnik="2"></experiment>
+
+
+	<!-- eksperiment nima dolocenega trajanja, konca se ko uporabnik konca vse vaje eksperimenta -->
+	<!-- cas eksperimenta zacne teci s prvim pritiskom na tipko (startWithUserAction="true") -->
+	<!-- s predvprasalnikom 2 in brez povprasalnika (izven casa trajanja eksperimenta!!!) -->
+	<experiment duration="-1" loop="true" startWithUserAction="true" predvprasalnik="2" povprasalnik="-1"></experiment>
+
+
+	<!-- neskoncni eksperiment -->
+	<!-- cas eksperimenta zacne teci programaticno ob izrisu grafike igre (startWithUserAction="false") -->
+	<!-- brez predvprasalnika in s povprasalnikom 3, ki ga itak nikoli ne bo ker gre za neskoncni eksperiment (izven casa trajanja eksperimenta!!!) -->
+	<experiment duration="-1" loop="true" startWithUserAction="false" predvprasalnik="-1" povprasalnik="3"></experiment>
+
+
+
+
+
+
+	<!-- 'GLOBALNI' TRIGGERJI EKSPERIMENTA-->
+	<!-- ce cas triggerja preseze cas eksperimenta, se pac trigger ne bo izvedel -->
+	<!-- 'GLOBALNI' TRIGGERJI PREPISEJO 'LOKALNE' TRIGGERJE; primer: emoticons set od neke naloge se bo zamenjal kar sredi naloge na podlagi globalnega triggerja -->
+
+	<experiment-triggers-in-any-order>
+		<!-- duringExperimentTime="true" pomeni, da cas npr. resevanja vprasanja stejemo v cas eksperimenta, v nasprotnem primeru casovnik eksperimenta ustavimo in ga nadaljujemo, ko se vprasalnik resi -->
+		<trigger time="300" type="askQuestions" id="2" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+		<trigger time="600" type="doInterruption" id="1" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+
+		<trigger time="400" type="changeEmoticonsSet" id="1" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+
+		<trigger time="690" type="doInterruption" id="3" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+		<trigger time="780" type="doInterruption" id="4" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+		<trigger time="900" type="askQuestions" id="2" duringExperimentTime="true" cyclical="false" priority="99"></trigger>
+	</experiment-triggers-in-any-order>
+
+
+
+
+
+	<!-- NALOGE V EKSPERIMENTU -->
+	<!-- tako kot so tu napisane po vrstnem redu, v takem vrstnem redu jih bo dobival uporabnik na zaslon -->
+
+	<experiment-events-in-chronological-order>
+		<!-- naloga nima dolocenega trajanja in ne zahteva, da uporabnik ob koncanju naloge potrdi vstop v naslednjo -->
+		<!-- pojavi se motnja po 10 sekundah od zacetka naloge; ce uporabnik ze prej konca nalogo, motnje sploh ne bo -->
+		<event level="2" exercise="1" duration="-1" emoticonsSet="1" clickForNext="false" interuption="2" interuptionTime="10000" duringExperimentTime="true" cyclical="false" priority="1"></event>
+
+		<!-- naloga nima dolocenega trajanja in zahteva, da uporabnik ob koncanju naloge potrdi vstop v naslednjo -->
+		<event level="2" exercise="2" duration="-1" emoticonsSet="1" clickForNext="true"></event>
+
+		<!-- naloga traja 50 sekund in ne zahteva, da uporabnik ob koncanju naloge potrdi vstop v naslednjo -->
+		<event level="2" exercise="3" duration="50000" emoticonsSet="2" clickForNext="false"></event>
+
+		<!-- naloga traja 50 sekund in zahteva, da uporabnik ob koncanju naloge potrdi vstop v naslednjo -->
+		<event level="2" exercise="4" duration="50000" emoticonsSet="2" clickForNext="true"></event>
+
+
+
+
+		<event level="2" exercise="1" duration="-1">
+			<trigger time="0" type="changeEmoticonsSet" id="1" duringExperimentTime="true" cyclical="false" priority="1"></trigger>
+			<trigger time="0" type="clickForNext" id="-1" duringExperimentTime="true" cyclical="false" priority="1"></trigger>
+			<trigger time="10000" type="doInterruption" id="2" duringExperimentTime="true" cyclical="false" priority="1"></trigger>
+		</event>
+
+
+		<event level="2" exercise="7" duration="-1" emoticonsSet="1" clickForNext="false" interT="-1" interType="-1" questT="-1" questType="-1"></event>
+
+		<event level="2" exer="1" limitT="-1" interT="-1" interChar="-1" interType="-1" questT="-1" questChar="-1" questType="-1" clickNext="false"></event>
+	</experiment-events-in-chronological-order>
+
+	<timers>
+		<post-measurements>1000</post-measurements>
+		<computational-model>4000</computational-model>
+	</timers>
+	<sensors>
+		<noldus>true</noldus>
+		<tobii>true</tobii>
+		<arduino>false</arduino>
+		<wear>true</wear>
+	</sensors>
+
+	<interruptions>
+
+		<visual>
+			<image type="2" path="img/motnja/Liki_TT.png" length="1750"></image>
+		</visual>
+
+		<audio>
+			<record type="1" path="sounds/motnja/07_Ton_A_MIš_Pismo_nahrbtnik_ura.mp3" length="1750"></record>
+			<record type="2" path="sounds/motnja/10_Manjši_krog.mp3" length="1750"></record>
+			<record type="3" path="sounds/motnja/11inPOL_Ton_A.mp3" length="1750"></record>
+			<record type="4" path="sounds/motnja/13_Ton_A_slon_korenje_peruti_kit.mp3" length="1750"></record>
+		</audio>
+
+		<user-tips>
+			<user-tip type="1">Navodila #1</user-tip>
+			<user-tip type="2">Navodila #2</user-tip>
+			<user-tip type="3">Navodila #3</user-tip>
+			<user-tip type="4">Navodila #4</user-tip>
+		</user-tips>
+
+	</interruptions>
+
+
+
+	<emoticons-sets>
+
+		<emoticons-set type="1">
+			<emoticon stage="1" path="-1"></emoticon>
+			<emoticon stage="2" path="-1"></emoticon>
+			<emoticon stage="3" path="-1"></emoticon>
+			<emoticon stage="4" path="-1"></emoticon>
+			<emoticon stage="5" path="-1"></emoticon>
+			<emoticon stage="6" path="-1"></emoticon>
+		</emoticons-set>
+
+		<emoticons-set type="2">
+			<emoticon stage="1" path="-1"></emoticon>
+			<emoticon stage="2" path="-1"></emoticon>
+			<emoticon stage="3" path="-1"></emoticon>
+			<emoticon stage="4" path="-1"></emoticon>
+			<emoticon stage="5" path="-1"></emoticon>
+			<emoticon stage="6" path="-1"></emoticon>
+		</emoticons-set>
+
+		<emoticons-set type="3">
+			<emoticon stage="1" path="-1"></emoticon>
+			<emoticon stage="2" path="-1"></emoticon>
+			<emoticon stage="3" path="-1"></emoticon>
+			<emoticon stage="4" path="-1"></emoticon>
+			<emoticon stage="5" path="-1"></emoticon>
+			<emoticon stage="6" path="-1"></emoticon>
+		</emoticons-set>
+
+	</emoticons-sets>
+
+</config>

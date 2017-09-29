@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<session  sID="1" uID="1" limitT="1320" continuousLoop="true"></session>
+
+	<events>
+		<event level="3" exer="1" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="2" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="3" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="4" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="5" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="6" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="7" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="8" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="3" exer="9" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+	</events>
+
+	<triggers>
+		<trigger interT="240" interType="16"></trigger>
+		<trigger interT="480" interType="17"></trigger>
+		<trigger interT="720" interType="18"></trigger>
+		<trigger interT="960" interType="19"></trigger>
+		<trigger interT="1200" interType="20"></trigger>
+	</triggers>
+
+	<timers>
+		<post-measurements>1000</post-measurements>
+		<computational-model>4000</computational-model>
+	</timers>
+
+	<sensors>
+		<noldus>true</noldus>
+		<tobii>true</tobii>
+		<arduino>false</arduino>
+		<wear>true</wear>
+	</sensors>
+
+	<interupts>
+		<visual>
+		</visual>
+		<audio>
+			<record type="16" path="sounds/motnja/16_Ton_A_Najkrajsa_kolo_komarnik_kolovrat.mp3" length="1750"></record>
+			<record type="17" path="sounds/motnja/17_Ton_A_Najdaljsa_sladek_rdeč_kot.mp3" length="1750"></record>
+			<record type="18" path="sounds/motnja/18_Ton_A_Ni_zival.mp3" length="1750"></record>
+			<record type="19" path="sounds/motnja/19_Ton_Najmanjse_stevilo.mp3" length="1750"></record>
+			<record type="20" path="sounds/motnja/20_Ton_A_Najvecje_stevilo.mp3" length="1750"></record>
+		</audio>
+		<user-tips>
+			<user-tip type="1">https://youtu.be/RUSn4u1qu-4</user-tip>
+		</user-tips>
+	</interupts>
+
+	<emoticons-set>
+		<emoticon-set type="1">
+			<emoticon level="1" path="-1"></emoticon>
+			<emoticon levellevel="2" path="-1"></emoticon>
+			<emoticon levellevel="3" path="-1"></emoticon>
+			<emoticon levellevel="4" path="-1"></emoticon>
+			<emoticon levellevel="5" path="-1"></emoticon>
+			<emoticon levellevel="6" path="-1"></emoticon>
+		</emoticon-set>
+	</emoticons-set>
+
+</config>

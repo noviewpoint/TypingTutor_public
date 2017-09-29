@@ -1,0 +1,772 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+	resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.neDaSeIzbratiTeksta {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.freespaceAtTheTop {
+	height: 10px;
+}
+
+body, html {
+	height: 100%; /* da otroci divi zasedajo celoted prostor */
+	width: 100%;
+}
+
+body {
+	/* resitev iz http://stackoverflow.com/questions/26912911/how-to-make-css-background-blend-mode-work-with-gradients */
+
+	/*background: url(../img/tekstura.jpg) no-repeat center center fixed, linear-gradient(to right, #fbb03b, white, #fbb03b); */
+	background: linear-gradient(to right, #fbb03b, white, #fbb03b);
+	background: -webkit-linear-gradient(left, #fbb03b, white, #fbb03b);
+	background: -o-linear-gradient(right, #fbb03b, white, #fbb03b);
+	background: -moz-linear-gradient(right, #fbb03b, white, #fbb03b);
+	background: -ms-linear-gradient(right, #fbb03b, white, #fbb03b);
+
+	/* centrirano sliko raztegne enakomerno na povrsino celega okna */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+
+	/* image (tekstura) in gradient skupaj potrebuje blend mode*/
+	/* background-blend-mode: multiply; */
+
+	/* uporaba teksture prevec upocasni vse skupaj, zato zakomentirano */
+}
+
+div#vsebina {
+	font-family: "Lucida Console", Monaco, monospace;
+	height: 100%;
+	width: 100%;
+}
+
+canvas#typingCanvas {
+	display: block;
+	margin: 100px auto 0 auto;
+}
+
+canvas#smejkoCanvas {
+	display: block;
+	position: absolute;
+	/* nastavitve pozicije smejkota od prej */
+	/*
+	left: 50%;
+	margin-left: -150px;
+	margin-top: 200px;
+	*/
+	left: 25%;
+	margin-left: -250px;
+	margin-top: 300px;
+	z-index: -1;
+}
+
+img#tipkarskeRoke {
+	width: 25%;
+	min-width: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+div.stopnjeWrapper {
+	margin: 5px auto;
+	/* pri robu malo lufta */
+	width: 95%;
+	/* inline-block divi delujejo kot nek tekst! */
+	text-align: center;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 215px;
+	}
+	div.stopnjeWrapper div.stopnjeSlider {
+		white-space: nowrap;
+		font-weight: 900;
+		position: absolute;
+		transition: transform 1s;
+		left: 50%;
+		}
+		/* TRI OSNOVNA STANJA */
+		div.stopnjeWrapper div.stopnjeSlider div.stopnja {
+			opacity: 0.4;
+			/* ozadja se ne vidi cez svg! */
+			margin: 0 5px;
+			height: 125px;
+			width: 125px;
+			cursor: pointer;
+			display: inline-block;
+		}
+		div.stopnjeWrapper div.stopnjeSlider div.stopnja.selected {
+			opacity: 1;
+			width: 200px;
+			height: 200px;
+
+		}
+		div.stopnjeWrapper div.stopnjeSlider div.stopnja:hover {
+			opacity: 1;
+			width: 200px;
+			height: 200px;
+		}
+
+		/* ODKLEP ALI ZAKLEP */
+		div.stopnjeWrapper div.stopnjeSlider div.stopnja.unlocked {
+			background: url(../img/unlocked_level.svg);
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-ms-background-size: cover;
+			/* zakrivljenost divov */
+			border-radius: 5px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja.unlocked p {
+				color: rgb(247, 147, 30);
+			}
+		div.stopnjeWrapper div.stopnjeSlider div.stopnja.locked {
+			background: url(../img/sivo_ozadje.svg);
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-ms-background-size: cover;
+			/* zakrivljenost divov */
+			border-radius: 5px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja.locked p {
+				color: rgb(242, 242, 242);
+			}
+
+			/* kako se obnasa slika glede na stanja */
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja img {
+				position: relative;
+				bottom: 50px;
+				width: 125px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja.selected img {
+				position: relative;
+				bottom: 55px;
+				width: 200px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja:hover img {
+				position: relative;
+				bottom: 55px;
+				width: 200px;
+			}
+
+			/* kako se obnasa besedilo in stevilka na sliki glede na stanja */
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja p.odstavek_stevilka {
+
+				font-size: 2.7em;
+				position: relative;
+				top: 40px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja.selected p.odstavek_stevilka {
+
+				font-size: 6.5em;
+				position: relative;
+				top: 55px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja:hover p.odstavek_stevilka {
+
+				font-size: 6.5em;
+				position: relative;
+				top: 55px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 1.7em;
+				position: relative;
+				top: 45px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja.selected p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 2.7em;
+				position: relative;
+				top: 85px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.stopnja:hover p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 2.7em;
+				position: relative;
+				top: 85px;
+				margin: 0;
+			}
+
+
+
+div.subStopnjeWrapper {
+	width: 55%;
+	}
+	div.subStopnjeWrapper div.subStopnjeSlider {
+		left: 0%;
+		position: relative;
+		}
+		/* TRI OSNOVNA STANJA */
+		div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja {
+			height: 100px;
+			width: 100px;
+			margin: 15px 15px;
+			float: left;
+		}
+		div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja.selected {
+			width: 100px;
+			height: 100px;
+		}
+		div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja:hover {
+			width: 100px;
+			height: 100px;
+		}
+
+		/* ODKLEP ALI ZAKLEP */
+		div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja.unlocked {
+			background: url(../img/unlocked_sublevel.svg);
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-ms-background-size: cover;
+			/* zakrivljenost divov */
+			border-radius: 5px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja.unlocked p {
+				color: rgb(234, 169, 225);
+			}
+
+		div.stopnjeWrapper div.stopnjeSlider div.subStopnja.locked {
+			background: url(../img/sivo_ozadje.svg);
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-ms-background-size: cover;
+			/* zakrivljenost divov */
+			border-radius: 5px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja.locked p {
+				color: rgb(242, 242, 242);
+			}
+
+			/* kako se obnasa slika glede na stanja */
+			div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja img {
+				width: 100px;
+				bottom: 46px;
+			}
+			div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja.selected img {
+				width: 100px;
+				bottom: 46px;
+			}
+			div.subStopnjeWrapper div.subStopnjeSlider div.subStopnja:hover img {
+				width: 100px;
+				bottom: 46px;
+			}
+
+			/* kako se obnasa besedilo in stevilka na sliki glede na stanja */
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja p.odstavek_stevilka {
+				font-size: 2.5em;
+				top: 24px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja.selected p.odstavek_stevilka {
+				font-size: 2.5em;
+				top: 27px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja:hover p.odstavek_stevilka {
+				font-size: 2.5em;
+				top: 27px;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 1.8em;
+				position: relative;
+				top: 30px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja.selected p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 1.8em;
+				position: relative;
+				top: 30px;
+				margin: 0;
+			}
+			div.stopnjeWrapper div.stopnjeSlider div.subStopnja:hover p.odstavek_besedilo {
+				font-family: Verdana, Geneva, sans-serif;
+				font-size: 1.8em;
+				position: relative;
+				top: 30px;
+				margin: 0;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fave {
+	display: inline-block;
+	width: 65px;
+	height: 45px;
+	border-radius: 5px;
+	background: url(../img/twitter_fave.png) no-repeat;
+	background-position: 0 0;
+}
+
+#podlaga_zvezdic {
+
+	/* cifre mal na oko dolocene ne da se mi s temi svgji ubadat... */
+	margin: 0 auto;
+	width: 330px;
+	height: 33px;
+	padding: 100px 0;
+
+	background: url(../img/zvezdice_podlaga.svg); /*no-repeat center center fixed;*/
+	background-color: white;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	/* zakrivljenost divov */
+	border-radius: 50px;
+}
+
+.fave.ongoing {
+  background-position: -3519px 0;
+  transition: background 1s steps(55);
+}
+
+#userIcon {
+	margin: 0 auto 100px auto;
+	height: 75px;
+	width: 75px;
+	background: url("../img/user_oranzni.svg") center; /*no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#userIcon p {
+	color: black;
+	text-align: center;
+	padding-top: 90px;
+	font-size: 2em;
+}
+
+/* adjacent sibling combinator, http://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling */
+#userIcon:hover + #usernameDisplayed {
+	color: blue;
+	font-weight: bold;
+}
+
+#usernameDisplayed:hover{
+	color: red;
+	font-weight: bold;
+}
+
+#zacniGumb {
+	margin: 20px auto;
+	display: block;
+	height: 50px;
+	width: 200px;
+	background: url("../img/zacni_zelen.svg") center; /*no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	cursor: pointer;
+}
+
+#zacniGumb:hover {
+	margin-top: 15px;
+	height: 60px;
+	width: 240px;
+}
+
+#zacniGumb:active {
+}
+
+div#soundIcon {
+	height: 43px;
+	width: 43px;
+	display: inline-block;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+	cursor: pointer;
+	background-size: cover;
+}
+
+div#collapseButton {
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#navodila {
+	font-size: 2em;
+	line-height: 1.5;
+}
+
+#navodilaSlider {
+	margin: 0 auto;
+	/* pri robu malo lufta */
+	width: 50%;
+	/* inline-block divi delujejo kot nek tekst! */
+	text-align: justify;
+	/* naredi div toliko visok kot je texta razsirjenega v njem */
+	overflow: hidden;
+}
+.square {
+	float:left;
+	position: relative;
+	width: 30%;
+	padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+	margin:1.66%;
+	background-color:#1E1E1E;
+	overflow:hidden;
+}
+
+.centrirano {
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 24px;
+}
+
+.content {
+	position:absolute;
+	height:90%; /* = 100% - 2*5% padding */
+	width:90%; /* = 100% - 2*5% padding */
+	padding: 5%;
+
+}
+
+
+
+#progress-bar-container {
+	width: 100%;
+	height:50px;
+	border: 1px solid black;
+
+	background: -webkit-linear-gradient(rgba(108, 108, 108, 1), rgba(131, 131, 131, 1), rgba(125, 125, 125, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(108, 108, 108, 1), rgba(131, 131, 131, 1), rgba(125, 125, 125, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(108, 108, 108, 1), rgba(131, 131, 131, 1), rgba(125, 125, 125, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(108, 108, 108, 1), rgba(131, 131, 131, 1), rgba(125, 125, 125, 1)); /* Standard syntax */
+}
+#progress-bar-container #progress-bar-moving {
+	height: 50px;
+	width: 0%;
+
+	background: -webkit-linear-gradient(rgba(230, 173, 61, 1), rgba(232, 150, 32, 1), rgba(217, 127, 4, 1)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(230, 173, 61, 1), rgba(232, 150, 32, 1), rgba(217, 127, 4, 1)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(230, 173, 61, 1), rgba(232, 150, 32, 1), rgba(217, 127, 4, 1)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(230, 173, 61, 1), rgba(232, 150, 32, 1), rgba(217, 127, 4, 1)); /* Standard syntax */
+}
+.prikazPodatkov {
+	/*text-align: center;*/
+	height:500px;
+	overflow:auto;
+}
+.prikazPodatkov table {
+	overflow: scroll;
+	display: inline-table;
+	background-color: white;
+	width: 33%;
+	border:1px solid black;
+	text-align: center;
+}
+.prikazPodatkov th {
+	text-align: center;
+	font-size: 1em;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #A7C942;
+	color: white;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+	display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+	visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+	   (-webkit-min-device-pixel-ratio: 1.25),
+	   (min-resolution: 1.25dppx),
+	   (min-resolution: 120dpi) {
+	/* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+	*,
+	*:before,
+	*:after,
+	*:first-letter,
+	*:first-line {
+		background: transparent !important;
+		color: #000 !important; /* Black prints faster:
+								   http://www.sanbeiji.com/archives/953 */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+
+	/*
+	 * Don't show links that are fragment identifiers,
+	 * or use the `javascript:` pseudo protocol
+	 */
+
+	a[href^="#"]:after,
+	a[href^="javascript:"]:after {
+		content: "";
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	/*
+	 * Printing Tables:
+	 * http://css-discuss.incutio.com/wiki/Printing_Tables
+	 */
+
+	thead {
+		display: table-header-group;
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+}

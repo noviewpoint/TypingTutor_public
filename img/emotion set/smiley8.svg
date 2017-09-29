@@ -1,0 +1,21 @@
+<svg width="60px" height="60px" viewBox="776 96 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>Smileys for the typing tutor.</desc>
+    <defs></defs>
+    <g id="smiley8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(776.000000, 96.000000)">
+        <g id="1f633">
+            <g id="Group">
+                <g id="Group-2" fill="#FFDD67">
+                    <circle id="Oval" cx="30" cy="30" r="30"></circle>
+                </g>
+                <circle id="Oval" fill="#FF717F" cx="50.811" cy="35.137" r="8"></circle>
+                <circle id="Oval" fill="#FF717F" cx="9.189" cy="35.137" r="8"></circle>
+                <path d="M52.645,18.627 C49.9309974,15.3737242 45.9086777,13.4987432 41.672,13.512 C41.084,13.522 40.951,11.332 41.668,11.321 C46.5562744,11.3071853 51.1967259,13.4712632 54.328,17.225 C54.779,17.779 53.014,19.084 52.645,18.627 L52.645,18.627 Z M18.326,13.361 C14.0895686,13.3488625 10.0677014,15.2236324 7.353,18.476 C6.984,18.937 5.22,17.628 5.671,17.074 C8.80227407,13.3202632 13.4427256,11.1561853 18.331,11.17 C19.049,11.182 18.914,13.373 18.326,13.361 L18.326,13.361 Z" id="Shape" fill="#917524"></path>
+                <circle id="Oval" fill="#664E27" cx="30" cy="47.471" r="4.5"></circle>
+                <circle id="Oval" fill="#664E27" cx="18.5" cy="27.137" r="4.5"></circle>
+                <g transform="translate(37.000000, 22.000000)" id="Oval" fill="#664E27">
+                    <circle cx="4.5" cy="5.137" r="4.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

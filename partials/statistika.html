@@ -1,0 +1,20 @@
+<!-- view - statistika -->
+
+<div class="freespaceAtTheTop"></div>
+
+<div style="text-align: center;">
+	<h3>Čestitke, opravil si stopnjo!</h3>
+	<div id="podlaga_zvezdic">
+		<section class="fave"></section>
+		<section class="fave"></section>
+		<section class="fave"></section>
+	</div>
+	<div class="obrobaUporabnikovegaTeksta">
+		{{StatistikaCtrl.exerciseReport}}
+	</div>
+	<!-- twitter zvezdice na https://cssanimation.rocks/twitter-fave/ -->
+	<p style="padding-top: 25px;">Tvoja uspešnost je bila {{StatistikaCtrl.izracun | number:2}}%. Doseženo število zvezdic je {{StatistikaCtrl.zvezdice - 1}}.</p>
+	<a class="btn btn-default btn-lg" ng-click="StatistikaCtrl.increaseSelectedSubExerciseIndex();" ui-sref='tipkanje'>V naslednjo stopnjo</a>
+	<a class="btn btn-default btn-lg" ng-click="StatistikaCtrl.repeatExercise();">Ponovi vajo</a>
+	<a class="btn btn-default btn-lg" ng-click="StatistikaCtrl.goBackToMenu();">Nazaj na meni</a>
+</div>

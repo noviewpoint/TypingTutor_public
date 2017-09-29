@@ -1,0 +1,166 @@
+/* to so moji stili (bolj probavanje) */
+
+/* zihr stili so pod author's styler v main.css :) */
+
+img {
+	/* onemogoci dragganje slikic (ghost image) */
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+div.obrobaUporabnikovegaTeksta {
+	background-color: white;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    font-size: 3em;
+    line-height: normal;
+    text-align: justify;
+    overflow-wrap: break-word;
+    padding: 15px;
+    border: 5px solid #fbb03b;
+    border-radius: 10px;
+    font-style: oblique;
+}
+
+/* NEDELUJOČE */
+/* adjacent sibling combinator, http://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling */
+#userIcon:hover + #usernameDisplayed {
+	color: blue;
+	font-weight: bold;
+}
+
+
+/* poprava za lepo zaobljene robove headerja od modala */
+.modal-header {
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+	background-color: #D0CCB3;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	/* border-top: none;
+	box-shadow: none;
+	text-align: center;
+	border-bottom: none; */
+}
+
+
+.modal-body {
+	background: no-repeat center center fixed, linear-gradient(to right, #fbb03b, #CAC8C8, #fbb03b);
+	background: no-repeat center center fixed, -webkit-linear-gradient(left, #fbb03b, #CAC8C8, #fbb03b);
+	background: no-repeat center center fixed, -o-linear-gradient(right, #fbb03b, #CAC8C8, #fbb03b);
+	background: no-repeat center center fixed, -moz-linear-gradient(right, #fbb03b, #CAC8C8, #fbb03b);
+	background: no-repeat center center fixed, -ms-linear-gradient(right, #fbb03b, #CAC8C8, #fbb03b);
+	/* border-top: none;
+	box-shadow: none;
+	text-align: center;
+	border-bottom: none; */
+}
+
+.modal p {
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: normal;
+}
+
+.modal-body form {
+	text-align: center;
+}
+
+.modal-body form input {
+	width: 300px;
+}
+
+
+.modal-footer {
+	background-color: #D0CCB3 !important;
+	/* border-top: none;
+	box-shadow: none;
+	border-bottom: none; */
+	text-align: center !important;
+}
+
+.modal-footer .okButton {
+	background-image: none;
+	background-color: rgb(135, 196, 63);
+	color: rgb(11, 150, 69);
+}
+
+.modal-footer .cancelButton {
+	background-image: none;
+	background-color: rgb(252, 139, 142);
+	color: rgb(249, 20, 26);
+}
+
+.modal.velik {
+	width: 80%;
+	height: 80%;
+	/* nimam pojma zakaj to dela, pure luck guessing */
+	margin: 0 10% 0 10%;
+	left: 0 !important;
+}
+
+.modal.velik .modal-dialog {
+	height: 100%;
+}
+
+.modal.velik .modal-dialog .modal-content {
+	height: 100%;
+}
+
+.flexBoxModal {
+	height: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: center;
+	align-items: stretch;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.modal-body {
+	max-height: 100% !important;
+    flex-grow: 1;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+}
+
+div#experimentIcon {
+	left: 0;
+	display: inline-block;
+	position: absolute;
+}
+
+div#experimentIcon input#experimentIndex {
+	height: 35px;
+    margin-left: 5px;
+    width: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+div#experimentIcon a {
+	border-radius: 8px;
+	margin-left: 15px;
+	height: 40px;
+	width: 170px;
+	color: white;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 1.1em;
+}

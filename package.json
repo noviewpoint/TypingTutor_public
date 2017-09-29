@@ -1,0 +1,16 @@
+{
+	"name": "typingt-tutor-documentation",
+	"version": "0.0.1",
+	"description": "Basic code documentation for the application.",
+
+	"author": {
+		"name": "David Brvar",
+		"email": "db9949@student.uni-lj.si"
+	},
+	"dependencies": {
+		"grunt": "~0.4.1",
+		"grunt-ngdocs": "~0.2.9",
+		"grunt-contrib-connect": "~0.3.0",
+		"grunt-contrib-clean": "0.4.1"
+	}
+}

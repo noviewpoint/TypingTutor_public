@@ -1,0 +1,42 @@
+<div class="modal-header">
+	<h1>Vprašalnik</h1>
+</div>
+
+<div class="modal-body">
+	<!-- brez action="xxx.php" ker gre za angularjs form-->
+	<form method="post" name="questionsForm" ng-submit="MQuestionsCtrl.postAnswers();">
+
+		<datalist id="ravnilo">
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+		</datalist>
+
+		<p>{{MQuestionsCtrl.questions[0]}}</p>
+	    <label style="font-weight: bold; font-size: 25px;">{{MQuestionsCtrl.answers[0]}}</label>
+	    <input ng-model="MQuestionsCtrl.answers[0]" type="range" min="0" max="10" value="5" step="1" list="ravnilo">
+
+		<p>{{MQuestionsCtrl.questions[1]}}</p>
+	    <label style="font-weight: bold; font-size: 25px;">{{MQuestionsCtrl.answers[1]}}</label>
+	    <input ng-model="MQuestionsCtrl.answers[1]" type="range" min="0" max="10" value="5" step="1" list="ravnilo">
+
+		<p>{{MQuestionsCtrl.questions[2]}}</p>
+	    <label style="font-weight: bold; font-size: 25px;">{{MQuestionsCtrl.answers[2]}}</label>
+	    <input ng-model="MQuestionsCtrl.answers[2]" type="range" min="0" max="10" value="5" step="1" list="ravnilo">
+
+	</form>
+</div>
+
+
+<div class="modal-footer">
+	<button class="btn btn-primary okButton" ng-click="MQuestionsCtrl.postAnswers(); MQuestionsCtrl.okModal();">&#10004</button>
+	<button class="btn btn-warning cancelButton" ng-click="MQuestionsCtrl.cancelModal();">&#10008</button>
+</div>

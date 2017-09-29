@@ -1,0 +1,31 @@
+<!-- view - tipkanje -->
+
+<!--<div id="progress-bar-container">
+	<div id="progress-bar-moving"></div>
+</div>-->
+
+<div class="freespaceAtTheTop"></div>
+
+<canvas id="typingCanvas">Your browser does not support HTML5 Canvas.</canvas>
+
+<div id="belowTypingCanvas">
+
+	<motnja></motnja>
+	<canvas id="smejkoCanvas" width="300" height="300">Your browser does not support HTML5 Canvas.</canvas>
+
+	<img id="tipkarskeRoke" alt="">
+
+	<div id="desniMenu" ng-controller="GrafController as GrafCtrl">
+		<div id="collapseButtonExercise" ng-click="GrafCtrl.changeCollapse();" ng-style="{'background' : GrafCtrl.isCollapsed(0) ? 'url(img/puscica_dol.png)' : 'url(img/puscica_gor.png)', 'background-size' : 'cover', 'background-position' : 'center center'}"></div>
+
+		<color-bars></color-bars>
+		<graf></graf>
+	</div>
+
+
+</div>
+
+<!-- za child viewe -->
+<div ui-view></div>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<session sID="1" uID="1" limitT="1320" continuousLoop="true"></session>
+
+	<events>
+		<event level="1" exer="1" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="1" exer="2" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="1" exer="3" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="1" exer="4" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="1" exer="5" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+	</events>
+
+	<triggers>
+	</triggers>
+
+	<timers>
+		<post-measurements>1000</post-measurements>
+		<computational-model>4000</computational-model>
+	</timers>
+
+	<sensors>
+		<noldus>false</noldus>
+		<tobii>false</tobii>
+		<arduino>false</arduino>
+		<wear>false</wear>
+	</sensors>
+
+	<interupts>
+		<visual>
+		</visual>
+		<audio>
+		</audio>
+		<user-tips>
+			<user-tip type="1">https://youtu.be/AQsyMufZuxc</user-tip>
+		</user-tips>
+	</interupts>
+
+	<emoticons-set>
+		<emoticon-set type="1">
+			<emoticon level="1" path="-1"></emoticon>
+			<emoticon levellevel="2" path="-1"></emoticon>
+			<emoticon levellevel="3" path="-1"></emoticon>
+			<emoticon levellevel="4" path="-1"></emoticon>
+			<emoticon levellevel="5" path="-1"></emoticon>
+			<emoticon levellevel="6" path="-1"></emoticon>
+		</emoticon-set>
+	</emoticons-set>
+
+</config>

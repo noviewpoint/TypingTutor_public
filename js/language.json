@@ -1,0 +1,8 @@
+conf file :
+
+getText.startExerciseButton("To je stavek zacetka");
+
+
+getText.goToNewExercise("Tipkal si res dobro....");
+
+// glej angular js multilanguage resitve

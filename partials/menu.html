@@ -1,0 +1,57 @@
+<!-- view - menu -->
+
+<div class="freespaceAtTheTop"></div>
+
+
+<!--
+<p>{{ 'HEADLINE' | translate }}</p>
+<p>{{ 'PARAGRAPH' | translate }}</p>
+
+<p translate>PASSED_AS_TEXT</p>
+<p translate="PASSED_AS_ATTRIBUTE"></p>
+<p translate>{{ 'PASSED_AS_INTERPOLATION' }}</p>
+<p translate="{{ 'PASSED_AS_INTERPOLATION' }}"></p>
+<p translate="VARIABLE_REPLACEMENT" translate-values="{ name: 'PascalPrecht' }"></p>
+
+<button ng-click="changeLanguage('de')" translate="BUTTON_LANG_DE"></button>
+<button ng-click="changeLanguage('en')" translate="BUTTON_LANG_EN"></button>
+-->
+
+<div id="experimentIcon">
+	<a class="btn btn-primary btn-lg pull-left" ng-click="MenuCtrl.playSoundBeginExperiment(); MenuCtrl.runControlledExperiment(MenuCtrl.experimentIndex);">ZAČNI VODENI EKSPERIMENT</a>
+	<!--<input id="experimentIndex" type="text" ng-model="MenuCtrl.experimentIndex;" />-->
+	<a class="btn btn-danger btn-lg pull-left" ng-click="MenuCtrl.runPretipkavanje();">ZAČNI PRETIPKAVANJE</a>
+</div>
+
+<div id="soundIcon" ng-style="{'background' : MenuCtrl.isSoundTurnedOn() ? 'url(img/zvocnik_ON.png)' : 'url(img/zvocnik_OFF.png)', 'background-size' : 'cover'}" ng-click="MenuCtrl.toogleSound();"></div>
+
+<div id="userIcon" ui-sref="profile"><p hover-makes-font-red>{{MenuCtrl.getUsername()}}</p></div>
+
+<div akcija-ob-resize>
+	<div class="stopnjeWrapper">
+		<div class="stopnjeSlider" ng-style="{'transform' : 'translateX(-' + (MenuCtrl.getSelectedExerciseIndex()*135+105) + 'px)'}">
+		<!-- ng-style="{'margin-top':'50px'}" -->
+			<stopnja></stopnja>
+		</div>
+	</div>
+
+	<!--<a class="pull-left" style="height: 128px; width: 128px; background: url(img/arrow-left.png); display:inline-block; cursor: pointer;" ng-click=""></a>
+	<a class="pull-right" style="height: 128px; width: 128px; background: url(img/arrow-left.png); display:inline-block; cursor: pointer; transform: rotate(180deg);" ng-click=""></a>-->
+
+	<div id="collapseButtonMenu" ng-click="MenuCtrl.changeCollapse();" ng-style="{'background' : MenuCtrl.isCollapsed ? 'url(img/puscica_dol.png)' : 'url(img/puscica_gor.png)', 'background-size' : 'cover', 'background-position' : 'center center'}"></div>
+
+	<div class="subStopnjeWrapper stopnjeWrapper" ng-show="MenuCtrl.isCollapsed" ng-class="MenuCtrl.collapsedAnimation">
+		<div class="subStopnjeSlider stopnjeSlider">
+			<nivo></nivo>
+		</div>
+	</div>
+
+	<div id="navodila">
+		<div id="navodilaSlider">
+			{{ MenuCtrl.getInstructions() }}
+		</div>
+	</div>
+
+	<!-- pojdi v stanje le ce ima uporabnik dovoljenja -->
+	<a id="zacniGumb" ng-click="MenuCtrl.changeStateToTyping();"></a>
+</div>

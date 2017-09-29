@@ -1,0 +1,3 @@
+Ugasnil zvok emotikona
+
+Ugasnil zvok posodobitve emotikona. Dodal request_authentication_for_human_operator.php.

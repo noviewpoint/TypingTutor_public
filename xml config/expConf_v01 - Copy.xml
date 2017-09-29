@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+	<session continuousLoop="true"></session>
+
+	<events>
+		<event level="2" exer="1" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="2" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="3" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="4" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="5" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="6" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+		<event level="2" exer="7" limitT="-1" emoticonsSetType="-1" interT="-1" interType="-1" questT="-1" questType="-1" clickNext="false"></event>
+	</events>
+
+	<triggers>
+		<trigger questT="300" questType="2"></trigger>
+		<trigger interT="600" interType="2"></trigger>
+		<trigger interT="690" interType="3"></trigger>
+		<trigger interT="780" interType="4"></trigger>
+		<trigger questT="900" questType="2"></trigger>
+	</triggers>
+
+	<timers>
+		<post-measurements>1000</post-measurements>
+		<computational-model>4000</computational-model>
+	</timers>
+
+	<sensors>
+		<noldus>true</noldus>
+		<tobii>true</tobii>
+		<arduino>false</arduino>
+		<wear>true</wear>
+	</sensors>
+
+	<interupts>
+		<visual>
+			<image type="2" path="img/motnja/Liki_TT.png" length="1750"></image>
+		</visual>
+		<audio>
+			<record type="1" path="sounds/motnja/07_Ton_A_MIš_Pismo_nahrbtnik_ura.mp3" length="1750"></record>
+			<record type="2" path="sounds/motnja/10_Manjši_krog.mp3" length="1750"></record>
+			<record type="3" path="sounds/motnja/11inPOL_Ton_A.mp3" length="1750"></record>
+			<record type="4" path="sounds/motnja/13_Ton_A_slon_korenje_peruti_kit.mp3" length="1750"></record>
+		</audio>
+		<user-tips>
+			<user-tip type="1">Navodila #1</user-tip>
+			<user-tip type="2">Navodila #2</user-tip>
+			<user-tip type="3">Navodila #3</user-tip>
+			<user-tip type="4">Navodila #4</user-tip>
+		</user-tips>
+	</interupts>
+
+
+
+	<emoticons-set>
+
+		<emoticon-set type="1">
+			<emoticon level="1" path="-1"></emoticon>
+			<emoticon levellevel="2" path="-1"></emoticon>
+			<emoticon levellevel="3" path="-1"></emoticon>
+			<emoticon levellevel="4" path="-1"></emoticon>
+			<emoticon levellevel="5" path="-1"></emoticon>
+			<emoticon levellevel="6" path="-1"></emoticon>
+		</emoticon-set>
+
+		<emoticon-set type="2">
+			<emoticon levellevel="1" path="-1"></emoticon>
+			<emoticon levellevel="2" path="-1"></emoticon>
+			<emoticon levellevel="3" path="-1"></emoticon>
+			<emoticon levellevel="4" path="-1"></emoticon>
+			<emoticon levellevel="5" path="-1"></emoticon>
+			<emoticon levellevel="6" path="-1"></emoticon>
+		</emoticon-set>
+
+		<emoticon-set type="3">
+			<emoticon level="1" path="-1"></emoticon>
+			<emoticon level="2" path="-1"></emoticon>
+			<emoticon level="3" path="-1"></emoticon>
+			<emoticon level="4" path="-1"></emoticon>
+			<emoticon level="5" path="-1"></emoticon>
+			<emoticon level="6" path="-1"></emoticon>
+		</emoticon-set>
+
+		<emoticon-set type="4">
+			<emoticon level="1" path="-1"></emoticon>
+			<emoticon level="2" path="-1"></emoticon>
+			<emoticon level="3" path="-1"></emoticon>
+			<emoticon level="4" path="-1"></emoticon>
+			<emoticon level="5" path="-1"></emoticon>
+			<emoticon level="6" path="-1"></emoticon>
+		</emoticon-set>
+
+	</emoticons-set>
+
+</config>
